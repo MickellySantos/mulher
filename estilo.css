@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url(./fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    background-color: rgba(165, 179, 174, 0.479);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+#menu {
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+}
+
+#box {
+    float: left;
+    padding: 10px 5px 10px 5px;
+    color: black;
+}
+
+#box:hover {
+    background-color: rgba(164, 166, 168, 0.767);
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagem img {
+    border-radius: 700px;
+    margin-top: 70px;
+}
+
+.nome {
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: rgba(13, 15, 15, 0.822);
+    font-family: 'Young serif', 'montserrat';
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+}
+
+#biografia, #profissional, #importante, #hoje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-left: 30%;
+    width: 500px;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.582);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.329);
+    cursor: pointer;
+}
+
+.historico, .historia, .pontos, .atual {
+    text-align: justify;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(40, 48, 48);
+    font-family: 'Young Serif', serif;
+}
+
+footer {
+    font-size: 17px;
+    display: block;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+}
+
+@media all and (max-width: 768px){
+    #menu {
+        visibility: hidden;
+    }
+}
